@@ -1,0 +1,49 @@
+.container{
+    background-color: var(--bgsoft);
+    padding: 20px;
+    border-radius:10px ;
+  }
+  
+  .title{
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--textsoft);
+  }
+  
+  .table{
+    width: 100%;
+  }
+  
+  .table td{
+    padding: 10px;
+  }
+  
+  .user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .userImage{
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .status{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .pending{
+    background-color: #fcdd9f75;
+  }
+  
+  .done{
+    background-color: #8bc7ed75;
+  }
+  
+  .cancelled{
+    background-color: #ff4e4e75;
+  }

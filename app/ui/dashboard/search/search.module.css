@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2c9587;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+  }
